@@ -4,7 +4,7 @@ from django.test import TestCase
 
 from ..forms import NewTopicForm
 from ..models import Board, Topic, Post
-from ..views import new_topic, board_topicss
+from ..views import new_topic, board_topics
 
 class NewTopicTests(TestCase):
     def setUp(self):
